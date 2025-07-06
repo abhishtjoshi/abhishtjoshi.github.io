@@ -59,30 +59,66 @@ Relevant: DS & Algos, Cloud Computing, Networks
 
 ---
 
-## 🔬 Projects (more coming soon with images!)
-
-| Project | Description | Stack |
-|--------|-------------|-------|
-| **DNS Attack Classifier** | Real-time classifier for DNS exfiltration using Kafka & Docker | Python, Kafka, ML |
-| **Cancer Doc Classifier** | 98% accuracy using LSTM & BioBERT on medical text | Python, NLP, DL |
-| **IMDb Sentiment Analysis** | RNN + AWS SageMaker + API + Webapp | PyTorch, AWS |
-| **Wine Quality Predictor** | CI/CD pipeline + DVC + deployment on Heroku | Python, DVC |
-| **PowerBI Dashboard** | Interactive trends + drill-downs + auto-refresh | PowerBI, DAX |
-
-*(Each repo has images and visuals — coming soon here too!)*
+## 🧠 Projects
 
 ---
 
-## 🧪 Publications
+### 🛰️ Dynamic DNS Exfiltration Attack Classification  
+A real-time system that detects data exfiltration attacks using DNS traffic patterns.  
+I built a producer in Docker that streamed **10,000+ DNS queries/sec** to Kafka. Then, I created a Kafka consumer that classified them in real-time using a sliding window. Achieved **90% accuracy** and an **85% F1 score**.
 
-- *CatBoost for Student Performance Prediction* [ESCI]  
-- *Heart Disease Prognosis using ML* [LNNS]  
-- *AMI Early Prognosis via ML* [ICDAM]  
+**Tools & Tech:** Python • Kafka • Docker • Scikit-learn  
+**Repo:** [GitHub Link](https://github.com/abhishtjoshi/DNS-Exfiltration-Attack-Classification)  
+*📷 Image placeholder here: `![DNS Attack Demo](assets/dns-attack.png)`*
 
-Find them here:
-- [World Scientific](https://www.worldscientific.com/doi/10.1142/S2424922X21410023)  
-- [Springer LNNS](https://link.springer.com/chapter/10.1007/978-981-19-3148-2_69)  
-- [Springer ICDAM](https://link.springer.com/chapter/10.1007/978-981-16-6285-0_63)
+---
+
+### 🧬 Cancer Classification using Medical Texts  
+Built a text classification system to categorize cancer cases using clinical notes. Applied heavy NLP preprocessing—tokenization, cleaning, stopword removal—and implemented various ML & DL models, including LSTM and fine-tuned **BioBERT**. Achieved **98% accuracy** and **0.99 F1 score**.
+
+**Tools & Tech:** Python • NLP • BioBERT • LSTM • Scikit-learn  
+**Repo:** [GitHub Link](https://github.com/abhishtjoshi/Cancer-Classification-using-Medical-Cancer-Text-Documentation-based-on-Machine-Learning-Model-and-NL)  
+*📷 Image placeholder here: `![Cancer Classifier](assets/cancer-classification.png)`*
+
+---
+
+### 🍷 Wine Quality Prediction using MLOps  
+Not just another ML model—this was an end-to-end pipeline. I used **DVC** for versioning, added **GitHub workflows** for CI/CD, and deployed the Random Forest model on **Heroku**. The app had YAML-driven param tuning and passed tests using **Pytest** & **Tox**. Achieved **RMSE: 0.23**.
+
+**Tools & Tech:** Python • DVC • CI/CD • Heroku • Pytest • Random Forest  
+**Repo:** [GitHub Link](https://github.com/abhishtjoshi/Wine-Quality-Prediction-using-ML-and-DVC)  
+*📷 Image placeholder here: `![Wine Quality](assets/wine-quality.png)`*
+
+---
+
+### 🎬 IMDb Sentiment Analysis Web App  
+Built an RNN-based sentiment classifier for movie reviews. Trained the model on **Amazon SageMaker**, exposed it using an **API Gateway**, and created a minimal web frontend. Final app could classify text in real-time with **86% accuracy**.
+
+**Tools & Tech:** PyTorch • AWS Sagemaker • API Gateway • Flask • HTML/CSS  
+**Repo:** [GitHub Link](https://github.com/abhishtjoshi/Project--Sentiment-Analysis)  
+*📷 Image placeholder here: `![IMDb App](assets/imdb-sentiment.png)`*
+
+---
+
+### 📊 Student Performance Dashboard  
+Designed an interactive dashboard that made student test data visual and meaningful. Cleaned messy CSVs, transformed them using **Power Query**, and added DAX measures for drill-down insights. Published to **Power BI Service** with auto-refresh and export support.
+
+**Tools & Tech:** Power BI • DAX • Power Query  
+*📷 Image placeholder here: `![Student Dashboard](assets/student-dashboard.png)`*
+
+## 📄 Publications
+
+- **Joshi, A.**, *CatBoost: An Ensemble Machine Learning Model for Prediction and Classification of Student Academic Performance.*  
+  Indexed in ESCI. Focused on early academic risk prediction using ensemble learning.  
+  [Read here](https://www.worldscientific.com/doi/10.1142/S2424922X21410023)
+
+- **Joshi, A.**, *An Effective Approach for Heart Diseases Prognosis Using Machine Learning Techniques.*  
+  Published in LNNS (Springer). Used classification algorithms for prognosis prediction.  
+  [Read here](https://link.springer.com/chapter/10.1007/978-981-19-3148-2_69)
+
+- **Joshi, A.**, *Early Prognosis of Acute Myocardial Infarction Using Machine Learning Techniques.*  
+  ICDAM Conference. Focused on early prediction using EDA + ML.  
+  [Read here](https://link.springer.com/chapter/10.1007/978-981-16-6285-0_63)
 
 ---
 
