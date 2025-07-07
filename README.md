@@ -22,26 +22,43 @@ MLOps (DVC, MLflow) • Tableau • PowerBI • Postman • PySpark • Hadoop
 
 **🔹 Health Canada – Software Developer**  
 *Dec 2024 – Present*  
-Frontend in React for 1000+ users. Backend in Go. CI/CD with Azure.  
-Keeping vaccines flowing... digitally.
+• Contributed to the development and maintaining the frontend of the National Vaccine Catalogue (NVC) using
+React, HTML, and CSS, enhancing user experience and interface responsiveness for 1000+ users.
+
+• Engineered backend services with Go, integrating APIs and optimizing system performance; utilized Azure
+DevOps for CI/CD pipelines and deployment management.
 
 **🔹 Department of Family Medicine, uOttawa – ML Developer**  
 *May 2023 – Dec 2024*  
-Built an NLP tool predicting student failure.  
-Fine-tuned XLNet. Used SHAP for explainability.  
-Secured Spring Boot app with AWS Cognito.
+• Spearheaded the development of a health dashboard and a proof-of-concept of natural language processing
+system to anticipate educational problems by mining data from the past 4 years, leveraging AI technology.
+
+• Implemented and configured AWS Cognito OAuth2 Resource Server and JWT verification for secure user
+authentication and authorization in a Spring Boot application.
+
+• Implemented 5 ML models, 1 DL model (LSTM) and fine-tuned a language model XLNET (LLM). Improved
+the detection accuracy by 14% as validated by medical experts using SHAP, an explainable AI technique.
 
 **🔹 Environment Canada – Programmer Analyst**  
 *Sep 2023 – Dec 2023*  
-Reduced script runtime by 90%.  
-Wrapped Python scripts in a PyQt GUI.  
-Debugged 50+ errors = 20% more stability.
+• Engineered Python scripts to extract data from various APIs as per user requirements and design solutions,
+achieving a significant run time reduction from 3.5 minutes to 48 seconds.
+
+• Integrated 6 Python scripts into a user-friendly Graphical User Interface (GUI) using PyQt5, enhancing data
+visualization and accessibility. Implemented QA testing to assure the stability of the GUI.
+
+• Diligently debugged, performed exception handling, and resolved over 50 errors in Python scripts, ensuring
+smooth and error-free functionality, resulting in a 20% increase in overall system stability and performance.
 
 **🔹 ZS Associates – Tech Solutions Intern**  
 *Feb 2022 – Jul 2022*  
-Migrated 5000+ clinical studies.  
-Automated S3 data transfers.  
-Supported data scientists with clean infra.
+
+• Contributed to the seamless migration of 5000+ clinical studies and associated content to the new Clinical
+Data Repository and Statistical Computing Environment (CDR-SCE) system, enabling a state-of-the-art
+environment for data scientists.
+
+• Automated the migration of 1000+ folders from the enterprise data lake to the target location in Amazon S3,
+streamlining the data migration process.
 
 ---
 
