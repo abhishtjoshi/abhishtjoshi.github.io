@@ -2,7 +2,7 @@
 
 Hi, I’m **Abhisht Makarand Joshi**, a software developer and machine learning researcher with a love for solving real-world problems using code, AI, and clean design. I’ve built NLP systems that flag at-risk students, real-time classifiers for DNS attacks, and dashboards that actually get used.
 
-*Resume available [here](./Abhisht_Joshi_Resume_CP.pdf)*
+*Resume available <a href="https://drive.google.com/file/d/1-U18dsGxCAcxBIj_f8hDVlQJkD4nZPb5/view?usp=sharing" target="_blank">here</a>*
 
 ---
 
