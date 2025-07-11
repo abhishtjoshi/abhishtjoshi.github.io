@@ -8,13 +8,16 @@ Hi, I’m **Abhisht Makarand Joshi**, a software developer and machine learning 
 
 ## 🔧 Technical Toolbox
 
-**Languages**  
+**Programming Languages**  
 Python • Go • Java • C++ • SQL (MySQL, PostgreSQL)
 
+**AI / ML and Data Science**  
+PyTorch, TensorFlow, Keras, Sklearn, Pandas, NumPy, NLTK, spaCy, HuggingFace,
+LLMs, GenAI, LangChain, RAG, Explainable AI, MLOps (DVC, MLflow, Vertex AI), Streamlit, CUDA
+
 **Frameworks & Tools**  
-TensorFlow • PyTorch • HuggingFace • LLMs • Explainable AI (SHAP) • Streamlit • Flask • Spring Boot  
-Git • Docker • AWS (EC2, S3, Lambda, Sagemaker, Cognito) • Azure DevOps • Kafka • Airflow  
-MLOps (DVC, MLflow) • Tableau • PowerBI • Postman • PySpark • Hadoop
+AWS (SageMaker, Lambda, EC2, S3), Azure CI/CD, Docker, Git, Kafka, Airflow, Hive, HDFS, Kubernetes
+PySpark, BigQuery, Tableau, Power BI, JIRA, Agile, CI/CD, Postman, Linux, Shell, OCR
 
 ---
 
