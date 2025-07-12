@@ -62,15 +62,37 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // Typing animation for hero title
-function typeWriter(element, text, speed = 100) {
-    let i = 0;
+function typeWriter(element, speed = 100) {
+    // Store the original HTML
+    const originalHTML = element.innerHTML;
+    
+    // Extract just the text content for typing
+    const textContent = element.textContent || element.innerText || '';
+    
+    // Clear the element
     element.innerHTML = '';
     
+    let i = 0;
+    
     function type() {
-        if (i < text.length) {
-            element.innerHTML += text.charAt(i);
+        if (i < textContent.length) {
+            // Build the HTML structure as we type
+            const typedText = textContent.substring(0, i + 1);
+            
+            // Reconstruct the HTML with proper span tags
+            if (typedText.includes('Abhisht Joshi')) {
+                const beforeName = typedText.split('Abhisht Joshi')[0];
+                const afterName = typedText.split('Abhisht Joshi')[1] || '';
+                element.innerHTML = beforeName + '<span class="highlight">Abhisht Joshi</span>' + afterName;
+            } else {
+                element.innerHTML = typedText;
+            }
+            
             i++;
             setTimeout(type, speed);
+        } else {
+            // Restore the original HTML when done
+            element.innerHTML = originalHTML;
         }
     }
     
@@ -81,10 +103,9 @@ function typeWriter(element, text, speed = 100) {
 document.addEventListener('DOMContentLoaded', () => {
     const heroTitle = document.querySelector('.hero-title');
     if (heroTitle) {
-        const originalText = heroTitle.innerHTML;
         // Only animate if it's the first visit (no session storage)
         if (!sessionStorage.getItem('visited')) {
-            typeWriter(heroTitle, originalText, 50);
+            typeWriter(heroTitle, 50);
             sessionStorage.setItem('visited', 'true');
         }
     }
