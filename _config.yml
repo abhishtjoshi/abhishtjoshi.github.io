@@ -1,5 +1,42 @@
 title: Abhisht Makarand Joshi
-# logo: /assets/img/headshot_circle.png
-description: Software Engineer / Data Scientist
-show_downloads: true
-theme: jekyll-theme-Cayman
+description: Software Engineer & Data Scientist
+url: "https://abhishtjoshi.github.io"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:name/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
