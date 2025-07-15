@@ -230,3 +230,15 @@ document.addEventListener('DOMContentLoaded', () => {
         }, index * 100);
     });
 }); 
+
+// Toggle abstract for publications
+function toggleAbstract(btn) {
+    const abstractDiv = btn.nextElementSibling;
+    if (abstractDiv.style.display === 'none' || abstractDiv.style.display === '') {
+        abstractDiv.style.display = 'block';
+        btn.textContent = 'Show Less';
+    } else {
+        abstractDiv.style.display = 'none';
+        btn.textContent = 'Read More';
+    }
+} 
